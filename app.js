@@ -4,6 +4,8 @@ var app =express();
 var bodyParser = require('body-parser');
 var Cookies = require('cookies')
 var cors = require('cors');
+
+
 //跨越访问
 app.use(cors({
     origin:['http://localhost:8080'],
@@ -11,6 +13,7 @@ app.use(cors({
     alloweHeaders:['Conten-Type','Authorization']
 }));
 //这里指定了一个临时目录（上传后的文件均保存到该目录下），  
+
 
 //设置cookies
 app.use('/upload',express.static(__dirname+'/upload'))
@@ -27,3 +30,5 @@ app.use('/',require('./routers/active'));
 app.use('/association',require('./routers/association'));
 app.use('/user',require('./routers/user'));
 app.listen('8888')
+
+module.exports = app;

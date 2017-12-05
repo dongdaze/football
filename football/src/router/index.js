@@ -15,11 +15,21 @@ import UserManagement from '@/components/UserManagement'
 import UserManagements from '@/components/UserManagements'
 import UserManagementAdd from '@/components/UserManagementAdd'
 import "@/assets/css/main.css"
+
+// 前端部分
+import Factivities from '@/view/activities'
+
+
 Vue.use(Router)
 export default new Router({
   mode: 'history',
   linkActiveClass: 'active',
   routes: [
+    {
+      path:'/',
+      name: Factivities,
+      component: Factivities
+    },
     {
       path: '/admin',
       name: 'Index',

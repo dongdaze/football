@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+.JoinActivities .boxWrap1{height:4.7rem;}
+.logoBox{width:2.71rem;height:1.58rem;background:url(../images/icon/attendactivity.png) no-repeat center center;
+          }
+.joinBox .bright{background:url(../images/icon/attendactivity-on.png) no-repeat center center;}
+.boxWrap1 .wrap h3{width:2.56rem;padding-bottom:0.1rem;margin-top: 0.2rem;}
+.boxWrap1 .wrap h3 a{color: #d9dde9;}
+.boxWrap1 .wrap .active{border-bottom:3px solid #de2e2e;color:#000;}
+.boxWrap1 .wrap{margin-right: 2.09rem;}
+.boxWrap1{text-align:center;background:#f5f5f5}
+.startBox .logoBox{width:2.71rem;height:1.58rem;background:url(../images/icon/associations.png) no-repeat center center;}
+.communityBox .logoBox{width:2.71rem;height:1.58rem;background:url(../images/icon/sponsor.png) no-repeat center center;}
+.boxWrap1 ul{width:20rem;}
+.boxWrap1 li{width:2.71rem;}
+.boxWrap1 .listBox{width:12.38rem;margin:0 auto;margin-top:0.86rem;overflow:hidden;}
+.boxWrap2{background:#f5f5f5;}
+.boxWrap2 li{background:#fff;margin-bottom:0.43rem;}
+.boxWrap2 .activityList{width:14.38rem;background:#fff;margin:0 auto;border-bottom:1px solid #dadce8;}
+.boxWrap2 .activityList div{font-size: 0.64rem;line-height: 0.75rem;}
+.time,.number,.area{padding-left:0.7rem;height:0.75rem;line-height:0.75rem;color:#747480;}
+.area{background:url(../images/icon/place.png) no-repeat left center;}
+.time{background:url(../images/icon/time.png) no-repeat left center;}
+.number{background:url(../images/icon/person.png) no-repeat left center;}
+.photo img{width:0.86rem;height:0.86rem;
+       border-radius:0.43rem;margin-right:0.2rem;}
+.name{height:0.86rem;line-height:0.86rem;}
+.name a{color:#dbdbdb;}
+.communityWrap .activityList .pic img{width:100%;height:100%;}
+.communityWrap .activityList .pic{width:1.6rem;height:1.6rem;
+                                  border-radius:0.2rem;overflow:hidden;}
+.communityWrap .boxWrap2 .activityList .number{font-size:0.55rem;}
+.communityWrap .boxWrap2 .activityList{border:none;}
+.communityWrap .activityList .brief{color:#b3b3b3;line-height:0.9rem;}
+
+.activityTitle{width:100%;height:1.82rem;line-height:1.82rem;background:#f5f5f5;color:#ccc;}
+.activityListBox  .activityList{background:#f5f5f5;}
+.boxWrap2 .activityList .joinBtn{width:2.41rem;height:1.07rem;border:1px solid #e6312a;line-height:1.07rem;font-size:0.53rem;text-align:center;color:#e6312a;background:#fff}
+/*高亮样式*/
+
+.state{width:2.14rem;height:0.77rem;text-align:center;line-height:0.77rem;font-size:0.5rem;color:#de2e2e;border:1px solid #de2e2e;
+       border-radius:0.1rem;}
+.boxWrap2 .activityList .join{color:#fff!important;background:#e6312a!important;}
+.joinWrap .join{background:#de2e2e;color:#fff;}
+.startWrap .join{background:#de2e2e;color:#fff;}
+.startWrap .no{background:#f5f5f5;color:#ccc;border:1px solid #ccc;}
+.startBox .bright{background:url(../images/icon/associations-on.png) no-repeat center center;}
+.communityWrap  .bright{background:url(../images/icon/sponsor-on.png)  no-repeat center center;}
+.free{color:#fff;background:#f3b919;border:none;}
