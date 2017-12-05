@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,div { margin:0; padding:0; }
+html {-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+body {color:#000;font:12px/20px "Arial","Helvetica","Times New Roman","sans-serif";}
+table { border-collapse:collapse; } 
+ul,ol{ list-style:none; }
+fieldset, img { border:0 none; }
+address, caption, cite, code, dfn, th, var,em,strong,i { font-style:normal;}
+img{display:block;}
+input {padding:0;margin:0;border:0 none;}
+textarea {resize:none;overflow:auto; }
+select, input { vertical-align:middle; }
+select, input, textarea { font-size:12px; margin:0; }
+input::-moz-focus-inner { border:none; padding:0; }
+button, input, optgroup, select, textarea {color:inherit;font:inherit;}
+input[type="text"], input[type="password"], textarea { outline-style:none; -webkit-appearance:none;/*clearmoren*/ }
+a{font-family:'微软雅黑';
+  text-decoration:none;color:#000;}
+.fl{float:left;}
+.fr{float:right;}
+/*clearfloat*/
+.clearfix:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.clearfix{zoom:1} 
+.clear{clear:both;} 
+
+.w590{width:12.59rem;}
+.w16{width:16rem;margin:0 auto;overflow:hidden;}
+.w30{width:0.64rem;}
+.w674{width:14.38rem;margin:0 auto;}
+.h20{height:0.46rem;}
+
+.marR80{margin-right:1.71rem;}
+
+
+.fs23{font-size:0.5rem;}
+.fs36{font-size:0.77rem;}
+
+
+.red{color:red;}
+
+

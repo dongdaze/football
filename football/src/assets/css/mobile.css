@@ -1,0 +1,497 @@
+body{font-size: 62.5%;}
+/*   common  css*/
+.common-bottom{
+	width: 100%;
+	height: 9rem;
+	padding-top:2rem;
+	background:#323237;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	}
+
+.common-activities{
+	/*margin-left: 12rem;*/
+	background: url(../images/icon/activity.png) no-repeat;
+	text-align: center;
+	background-size: 5rem;
+	color: #fff;
+	width: 5rem;
+	height: 8rem;
+	font-size: 1.8rem;
+	display: inline-block;
+	padding-top:5rem;
+}
+
+.common-association{
+	/*margin-left: 12rem;*/
+	background: url(../images/icon/association.png) no-repeat;
+	text-align: center;
+	background-size: 5rem;
+	color: #fff;
+	width: 5rem;
+	height: 8rem;
+	font-size: 1.8rem;
+	display: inline-block;
+	padding-top:5rem;
+}
+
+.common-me{
+	/*margin-left: 9.6rem;*/
+	background: url(../images/icon/me.png) no-repeat;
+	text-align: center;
+	background-size: 5rem;
+	color: #fff;
+	width: 5rem;
+	height: 8rem;
+	font-size: 1.8rem;
+	padding-top:5rem;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+/*association*/
+.association{background: #F5F5F5;}
+.association li{background: #fff;padding: 2rem 4rem;margin-bottom: 2rem;}
+.association-img img{width: 7.5rem;}
+.association-name{width: 20rem;margin-left: 1.5em;}
+.association-name h3{font-size: 3rem;line-height: 4rem;}
+.association-name p img{width: 2.2rem;height: 2.6rem;vertical-align: middle;}
+.association-name p span{font-size: 2.4rem;color: #727480;vertical-align: middle;}
+.association-addinfo{
+	position: relative;
+	right: 12rem;	
+	top:0;
+}
+.association-add{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 11.5rem;
+	height: 5rem;
+	background: #f00;
+	border-radius: 5px;
+	font-size: 2.4rem;
+	line-height: 5rem;
+	text-align: center;
+	color: #fff;
+}
+
+.association-noadd{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 11.5rem;
+	height: 5rem;
+	border: 1px solid #f00;
+	border-radius: 5px;
+	font-size: 2.4rem;
+	line-height: 5rem;
+	text-align: center;
+	color:#f00;
+}
+
+.association-info p{
+	margin-top: 2rem;
+	font-size: 2.4rem;
+	color:#b4b4b4;
+}
+
+
+/* poster */
+.poster{width: 55rem;margin: 0 auto;}
+.addimg{width: 55rem;height: 30rem;border: 1px solid #666;margin: 4rem auto 2rem;}
+.addtitle input{
+	width:45rem;
+	height: 3.4rem;
+	border: 1px solid #666;
+	border-radius: 10px;
+	font-size:2.4rem;
+	padding:1rem 5rem;
+	color:#b6b6b6;
+}
+.place-search{
+	margin-top:2.5rem;
+}
+.place-search img{
+	width: 3rem;
+	margin-right: 1rem;
+	/*height: 2.6rem;*/
+	vertical-align: middle;
+}
+
+.place-search span{
+	vertical-align: middle;
+	display: inline-block;
+	width: 14.6rem;
+	height: 5.3rem;
+	line-height: 5.3rem;
+	font-size: 2.4rem;
+	text-align: center;
+	color: #fff;
+	background:#727480;
+}
+
+.select-time{
+	margin-top:2.5rem;
+}
+
+.select-time img{
+	width: 3rem;
+	margin-right: 1rem;
+	/*height: 2.6rem;*/
+	vertical-align: middle;
+}
+
+.select-time input{
+	width: 20rem;
+	height: 3.2rem;
+	border: 1px solid #ccc;
+	color: #b6b6b6;
+	font-size:2.0rem;
+	padding:1rem 2rem;
+}
+
+.select-assciation{
+	margin-top:2.5rem;
+}
+
+.select-assciation img{
+	width: 3rem;
+	margin-right: 1rem;
+	/*height: 2.6rem;*/
+	vertical-align: middle;
+}
+
+.select-assciation span{
+	vertical-align: middle;
+	display: inline-block;
+	width: 14.6rem;
+	height: 5.3rem;
+	line-height: 5.3rem;
+	font-size: 2.4rem;
+	text-align: center;
+	color: #fff;
+	background:#727480;
+}
+.input-container{
+	margin-top: 2.5rem;
+}
+.input-container textarea{
+	display: block;
+	width: 55rem;
+	height: 23rem;
+	color:#b6b6b6;
+	font-size: 2.4rem;
+}
+
+.input-container-info{
+	margin-top: 2.5rem;
+}
+
+.input-container-info span{
+	display: inline-block;
+	width: 8rem;
+	height: 5.4rem;
+	background:#727480;
+	color: #fff;
+	text-align: center;
+	line-height: 5.4rem;
+	margin-right: 1.4rem;
+	font-size: 2.4rem;
+}
+
+.tel,.people{
+	margin-top:2.5rem;
+}
+
+.tel img,.people img{
+	width: 3rem;
+	margin-right: 1rem;
+	/*height: 2.6rem;*/
+	vertical-align: middle;
+}
+
+.tel input,.people input{
+	width: 46rem;
+	height: 3.2rem;
+	border: 1px solid #ccc;
+	color: #b6b6b6;
+	font-size:2.0rem;
+	padding:1rem 2rem;
+}
+
+.publish{
+	margin-top: 2.5rem;
+}
+
+.publish button{
+	background: #f00;
+	height: 8rem;
+	line-height: 8rem;
+	text-align: center;
+	color: #fff;
+	width: 100%;
+	font-size: 2.4rem;
+	border-radius: 1.2rem;
+}
+
+.read{
+	margin-top: 2.5rem;
+}
+
+.read input{
+	width: 4rem;
+	height: 4rem;
+	vertical-align: middle;
+	border: 1px solid #ccc;
+}
+
+.read span{
+	font-size:2.4rem;
+	color: #b6b6b6;
+	vertical-align: middle;
+}
+
+/*activity info*/
+.activities-info-img img{
+	width:100%;
+}
+
+.activities-main{
+	padding:4.5rem;
+}
+
+.activities-info-title{
+	font-size: 3.2rem;
+	line-height: 5.5rem;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 2rem;
+}
+.activities-poster-info{
+	width: 26rem;
+}
+.activities-poster-info span{
+	font-size: 2.4rem;
+	color:#b4b4b4;	
+	vertical-align: middle;
+}
+.activities-poster-info img{
+	width: 3rem;
+	vertical-align: middle;
+}
+
+.activities-poster-time {
+	width:22rem;
+}
+.activities-poster-time img{
+	width: 2.5rem;
+	vertical-align: middle;
+}
+.activities-poster-time span{
+	font-size: 2.2rem;
+	color:#b4b4b4;	
+	vertical-align: middle;
+}
+
+.activities-tel,.activities-place,.activities-tel,.activities-num{
+	margin-bottom: 1rem;
+}
+.activities-tel img,.activities-place img,.activities-tel img{
+	width: 2.5rem;
+	margin-right: 2rem;
+}
+
+.activities-tel span,.activities-place span,.activities-tel span{
+	font-size: 2.4rem;
+	color: #727480;
+}
+
+.activities-num img{
+	width: 3rem;
+	display: inline-block;
+	margin-right: 1rem;
+}
+
+.activities-detail h3{
+	margin-top: 2rem;
+	font-size: 3rem;
+	color: #f00;
+}
+
+.activities-detail p{
+	font-size: 3rem;
+	line-height: 4.8rem;
+	color: #727480;
+	text-indent: 2em;
+}
+
+.attend button{
+	width:100%;
+	background: #f00;
+	text-align: center;
+	font-size:3rem;
+	color: #fff;
+	border: none;
+	height: 6rem;
+	line-height: 6rem;
+	margin-top: 2rem;
+	border-radius: 1rem;
+}
+
+/*personal*/
+.personal-img{
+	width:30rem;
+	text-align: center;
+	font-size: 3rem;
+	margin: 10rem auto;
+}
+.personal-img img{
+	text-align: center;
+	width:25rem;
+}
+.my-activities{
+	height: 8.4rem;
+	border-left: 2px solid #f00;
+	background:#3b3b40 ;
+}
+.my-activities span{
+	font-size: 3rem;
+	line-height:8.4rem;
+	color: #fff;
+	margin-left: 2rem;
+}
+
+.my-activities a{
+	font-size: 2.4rem;
+	line-height:8.4rem;
+	color: #727480;
+	float: right;
+	margin-right: 2rem;
+}
+
+.my-list{
+	margin-top: 10rem;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+}
+
+.attend-activites{
+	width: 14rem;
+	display: inline-block;
+	background: url(../images/icon/attendactivity-on.png) top center no-repeat;
+	background-size:8rem;
+	padding-top: 8rem;
+	font-size: 2.2rem;
+	text-align: center;
+	
+}
+
+.poster-activites{
+	width: 14rem;
+	display: inline-block;
+	background: url(../images/icon/associations-on.png) top center no-repeat;
+	background-size:8rem;
+	padding-top: 8rem;
+	font-size: 2.2rem;
+	text-align: center
+}
+
+.attend-association{
+	width: 14rem;
+	display: inline-block;
+	background: url(../images/icon/sponsor-on.png) top center no-repeat;
+	background-size:8rem;
+	padding-top: 8rem;
+	font-size: 2.2rem;
+	text-align: center
+}
+
+.about-me{
+	width: 55rem;
+	background:#ececec;
+	text-align: center;
+	font-size: 3rem;
+	line-height: 6rem;
+	height: 6rem;
+	border: 2px solid #666;
+	border-radius: .5rem;
+	margin: 5rem auto 0;
+	display: block;
+}
+
+/*modal*/
+.modal{
+	position: fixed;
+	background: #2e2d33;
+	padding:8rem 5rem;
+	bottom: 0;
+	left: 0;
+	font-size: 3rem;
+	color: #fff;
+}
+
+.modal h3{
+	font-size: 3rem;
+	line-height: 5.5rem;
+	color: #fff;
+	text-align: center;
+}
+
+.modal h3 span{
+	color: #f00;
+}
+
+.moadl-tel,.moadl-name,.moadl-info{
+	width:55rem;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+.moadl-tel span,.moadl-name span{
+	display: inline-block;
+	width: 15rem;
+}
+
+.moadl-tel input,.moadl-name input{
+	display: inline-block;
+	width: 30rem;
+	color: #333;
+	font-size: 2.4rem;
+	line-height: 3.4rem;
+	padding: 0 1rem;
+}
+.moadl-info span{
+	font-size: 2.4rem;
+	color: #999;
+}
+.moadl-info input{
+	
+}
+.confirm-but{
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+}
+
+.disagree{
+	background: #999;
+	color: #f00;
+	border: none;
+}
+
+.agree{
+	background: #f00;
+	color: #fff;
+	border: none;
+}
