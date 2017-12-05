@@ -495,3 +495,71 @@ body{font-size: 62.5%;}
 	color: #fff;
 	border: none;
 }
+
+/*login*/
+.signin{
+	width: 55rem;
+	margin:10rem auto;
+}
+
+.signin h3{
+	color: #3B3B40;
+	font-size: 3.4rem;
+	margin-bottom: 5rem;
+}
+
+.signin .user-name,.signin .user-password,.signin .user-img{
+	margin-bottom: 3rem;
+}
+
+.signin .user-name span,.signin .user-password span ,.signin .user-img span{
+	display: inline-block;
+	width: 15rem;
+	font-size: 2.4rem;
+}
+
+.signin .user-name input,
+.signin .user-password input,
+.signin .user-img input{
+	display: inline-block;
+	width: 30rem;
+	color: #333;
+	font-size: 2.4rem;
+	height: 4rem;
+	line-height: 4rem;
+	padding: 0 1rem;
+	border: 2px solid #999;
+}
+.user-img span{
+	height: 10rem;
+	line-height: 10rem;
+	display: inline-block;
+	vertical-align: top;
+}
+.signin .add-userimg{
+	width: 20rem;
+	height: 20rem;
+	border: 2px solid #999;
+	display: inline-block;
+	background: url(../images/icon/add.png) center center no-repeat;
+}
+
+.signin .confirm{
+	width: 15rem;
+	height: 6rem;
+	background: #999;
+	color: #f00;
+	border: none;
+	font-size: 2.4rem;
+	margin-top: 5rem;
+}
+
+.signin .rewrite{
+	width: 15rem;
+	height: 6rem;
+	background: #f00;
+	color: #fff;
+	border: none;
+	font-size:2.4rem;
+	margin-top: 5rem;
+}
