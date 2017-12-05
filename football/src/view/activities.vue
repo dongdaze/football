@@ -164,7 +164,7 @@
             },
             init(){
                 axios.get("http://localhost:8888/activities").then((response)=>{
-                    let res = response;
+                    let res = response.data;
                     console.log(response)
                 }).catch((err)=>{
                     console.log(err)
